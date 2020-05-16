@@ -34,7 +34,7 @@ def auto_commit():
 
 def main():
     scheduler = BlockingScheduler()
-    scheduler.add_job(auto_commit,'cron', hour=23, minute=26)
+    scheduler.add_job(auto_commit,'cron', hour=22, minute=38)
 
     try:
         scheduler.start()
