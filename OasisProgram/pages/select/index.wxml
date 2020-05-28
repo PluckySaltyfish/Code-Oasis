@@ -1,9 +1,0 @@
-<!--pages/select/index.wxml-->
-<view class="container">
-    <view class="title-bar">冒险进度</view>
-    <view class="btn-row" wx:for="{{[1,2,3,4,5,6,7,8]}}" wx:for-item="i">
-        <button class="level  {{currLevel ==  (i-1)*4 + j ? 'active':''}}"  disabled = "{{currLevel <  (i-1)*4 + j}}" wx:for="{{[1,2,3,4]}}"  wx:for-item="j">
-            {{(i-1)*4 + j}}
-        </button>
-    </view>
-</view>
