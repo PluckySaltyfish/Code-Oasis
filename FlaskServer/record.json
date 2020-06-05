@@ -1,0 +1,18 @@
+{
+    "life": 3, 
+    "coin": 1, 
+    "score": 0, 
+    "reset_allowed": false, 
+    "level_info": {
+        "level":1,
+        "status":0
+    }, 
+    "quiz_info": {
+        "quiz_id":0,
+        "quiz_type":0,
+        "is_multiple":true,
+        "step":0,
+        "finished_id":[]
+    }, 
+    "gift_info": []
+}
