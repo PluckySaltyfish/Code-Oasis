@@ -9,6 +9,10 @@ page{
   width: 70%;
   margin-top: 200rpx;
   border: #8cc253 1rem solid;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .btn-container{
@@ -78,4 +82,7 @@ button::after {
 .btn-life:active{
   background-color: #8f9496;
   border: #8f9496 0.2rem solid;
+}
+.cover{
+  width: 100%;
 }

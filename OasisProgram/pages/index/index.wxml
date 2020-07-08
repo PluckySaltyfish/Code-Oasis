@@ -1,6 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-    <view class="screen"> </view>
+    <view class="screen">
+        <image src="../../img/cover.png" mode="aspectFit" class="cover"></image>
+    </view>
     <view class="btn-container">
         <image class="plus-btn" src="../../img/plus-btn.png" mode="cover"></image>
         <view class="start-btns">

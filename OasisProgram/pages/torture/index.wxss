@@ -1,0 +1,65 @@
+/* pages/filling/index.wxss */
+.bar-content{
+    width: 42%;
+    
+}
+.life,.coin{
+    background-color: rgba(213, 133, 151, 0.5);
+}
+.title-bar{
+    font-size: 60rpx;
+    color: rgb(213, 103, 155);
+}
+.col{
+    width: 75%;
+    background-color: white;
+    font-size: 40rpx;
+    color: rgb(74, 36, 43);
+    border-radius: 20rpx;
+    padding: 40rpx;
+    margin-top: 40rpx;
+}
+.quiz{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 40rpx;
+}
+.answer{
+    width: 85%;
+    background-color: transparent;
+    padding: 0;
+}
+.ans{
+    margin:0;
+    width: 45%;
+    color: rgb(74, 36, 43);
+    background-color: rgba(213, 133, 151, 0.5);
+}
+.btn{
+    width: 85%;
+    padding: 40rpx 0 0 0;
+    background-color: transparent;
+
+}
+.color-cube{
+    width: 100rpx;
+    height: 100rpx;
+    background-color: violet;
+    border-radius: 10rpx;
+
+}
+
+.cube{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    background-color: white;
+    border-radius: 15rpx;
+    padding: 20rpx;
+}
+#cube-1{
+    width: 200rpx;
+    height: 200rpx;
+}

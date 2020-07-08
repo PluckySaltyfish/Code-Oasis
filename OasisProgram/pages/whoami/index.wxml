@@ -1,0 +1,37 @@
+<!-- pages/filling/index.wxml -->
+<view class="container">
+    <view class="row">
+        <view class="row">
+            <text class=" title-bar">Who AM I?</text>
+        </view>
+        <view class="row">
+            <view class="bar-content life">
+                <image class="bar-icon" src="../../img/heart.png" mode="cover"></image>
+                <text style="color:white;font-size:15pt">{{life}}</text>
+            </view>
+            <view class="bar-content coin">
+                <image class="bar-icon" src="../../img/coin.png" mode="cover"></image>
+                <text style="color:white;font-size:15pt">{{coin}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="col">
+        <image class="quiz-img" style="width:40%;height:150px" src="{{src}}" mode="aspectFit"></image>
+        <text class="response">{{response}}</text>
+    </view>
+
+    <text class="quiz">剩余提问次数:{{times}}</text>
+    <view class="answer row">
+      <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+          <view class="picker">
+              我的 {{multiArray[0][multiIndex[0]]}} 是 {{multiArray[1][multiIndex[1]]}} 吗?
+          </view>
+      </picker>
+        <button class="submit" bindtap="ask">提问</button>
+    </view>
+    <view class="answer row">
+        <input class="weui-input" bindinput="getInput" placeholder="点击输入你的答案" />
+        <button class="submit" bindtap="confirm">确定</button>
+    </view>
+
+</view>

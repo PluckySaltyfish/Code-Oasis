@@ -1,0 +1,40 @@
+.bar-content{
+    width: 42%;
+    
+}
+.life,.coin{
+    background-color: rgba(70,70,70, 0.5);
+}
+.title-bar{
+    font-size: 60rpx;
+    color: rgba(70,70,70, 1);
+}
+.col{
+    width: 75%;
+    font-size: 40rpx;
+    color: rgb(70, 70, 70);
+    border-radius: 20rpx;
+    padding: 40rpx;
+    margin-top: 40rpx;
+}
+.quiz{
+    width: 100%;
+    text-align: center;
+}
+.answer{
+    width: 80%;
+    margin-top: 40rpx;
+    /* background-color: rgba(170,206,243, 0.5); */
+    background-color: white;
+    border-radius: 20rpx;
+    padding: 20rpx;
+
+}
+.submit{
+    margin:0;
+    background-color: rgba(70,70,70, 1);
+    color: white;
+}
+.response{
+    font-size: 50rpx;
+}

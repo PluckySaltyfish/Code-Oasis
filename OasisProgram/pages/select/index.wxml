@@ -1,9 +1,32 @@
 <!--pages/select/index.wxml-->
 <view class="container">
     <view class="title-bar">冒险进度</view>
-    <view class="btn-row" wx:for="{{[1,2,3,4,5,6,7,8]}}" wx:for-item="i">
-        <button class="level  {{currLevel ==  (i-1)*4 + j ? 'active':''}}"  disabled = "{{currLevel <  (i-1)*4 + j}}" wx:for="{{[1,2,3,4]}}"  wx:for-item="j">
+    <view class="row-right" >
+    <!-- <view class="title-bar">冒险进度</view> -->
+        <view class="bar-content"> </view>
+        <view class="bar-content life">
+        <image class="bar-icon" src="../../img/heart.png" mode="cover"></image>
+        <text style="color:white;font-size:15pt">{{record.life}}</text>
+        </view>
+        <view class="bar-content coin">
+        <image class="bar-icon" src="../../img/coin.png" mode="cover"></image>
+        <text style="color:white;font-size:15pt">{{record.coin}}</text>
+        </view>
+        <view class="bar-content"> </view>
+
+    </view>
+    
+    <view class="btn-row" wx:for="{{[1,2,3,4,5,6]}}" wx:for-item="i">
+        <button id= "{{(i-1)*4 + j}}" class="level  {{record.level_info.level ==  (i-1)*4 + j ? 'active':''}}"  disabled = "{{record.level_info.level <  (i-1)*4 + j}}" bindtap="startquiz" wx:for="{{[1,2,3,4]}}"  wx:for-item="j">
             {{(i-1)*4 + j}}
         </button>
     </view>
+    <!-- <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+    <view class="modalDlg" wx:if="{{showModal}}">
+        <image src="/figures/logo-smile.png" />
+        <text>欢迎来到模态对话框~</text>
+        <button bindtap="go">点我可以关掉对话框</button>
+    </view>
+    <button bindtap="submit">点我弹窗</button> -->
+
 </view>

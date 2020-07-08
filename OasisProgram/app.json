@@ -1,8 +1,15 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/select/index"
+    "pages/gift/index",
+    "pages/whoami/index",
     
+    
+    "pages/torture/index",
+    "pages/choice/index",
+    
+    "pages/filling/index",
+    "pages/select/index"
     
   ],
   "window":{

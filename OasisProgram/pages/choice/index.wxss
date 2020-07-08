@@ -1,0 +1,49 @@
+/* pages/filling/index.wxss */
+.bar-content{
+    width: 42%;
+    
+}
+.life,.coin{
+    background-color: rgba(213, 133, 151, 0.5);
+}
+.title-bar{
+    font-size: 60rpx;
+    color: rgb(213, 103, 155);
+}
+.col{
+    width: 75%;
+    background-color: white;
+    font-size: 40rpx;
+    color: rgb(74, 36, 43);
+    border-radius: 20rpx;
+    padding: 40rpx;
+    margin-top: 40rpx;
+}
+.quiz{
+    width: 100%;
+    text-align: left;
+}
+.answer{
+    width: 85%;
+    background-color: transparent;
+    color: white;
+    padding: 0;
+}
+.ans{
+    margin:0;
+    width: 45%;
+    color: white;
+    background-color: rgba(213, 133, 151, 0.5);
+}
+.ans:active{
+
+    background-color: rgba(213, 133, 151, 1);
+
+}
+
+.btn{
+    width: 100%;
+    padding: 40rpx 0 0 0;
+    background-color: transparent;
+
+}
