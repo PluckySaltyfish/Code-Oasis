@@ -1,0 +1,35 @@
+<!--pages/gift/index.wxml-->
+<view class="container">
+    <image src="../../img/gift-title.png" mode="aspectFit" style="width:60%;height:80px"></image>
+    <view class="row">
+        <image class="bag" id="0" src = "{{img_lst[src_lst[0]]}}" bindtap="open" mode="cover"></image>
+        <image class="bag" id="1" src =  "{{img_lst[src_lst[1]]}}"  bindtap="open" mode="cover"></image>
+        <image class="bag"id="2" src =  "{{img_lst[src_lst[2]]}}"  bindtap="open" mode="cover"></image>
+        <image class="bag"  id="3"src =  "{{img_lst[src_lst[3]]}}"  bindtap="open" mode="cover"></image>
+    </view>
+    <view class="row">
+        <view class="col">
+        <image class="bag"  id="4"style="margin-bottom:20rpx" src =  "{{img_lst[src_lst[4]]}}"  bindtap="open" mode="cover"></image>
+        <image class="bag"  id="5"src="{{img_lst[src_lst[5]]}}"bindtap="open" mode="cover"></image>
+        </view>
+        <image class="bag-big"  id="6"src="{{img_lst[src_lst[6]]}}"bindtap="open" mode="cover"></image>
+        <view class="col">
+        <image class="bag"  id="7"style="margin-bottom:20rpx" src =  "{{img_lst[src_lst[7]]}}"    bindtap="open"mode="cover"></image>
+        <image class="bag"  id="8"src="{{img_lst[src_lst[8]]}}"  bindtap="open"mode="cover"></image>
+        </view>
+    </view>
+    <view class="row">
+        <image class="bag"  id="9" src="{{img_lst[src_lst[9]]}}"  bindtap="open"mode="cover"></image>
+        <image class="bag"  id="10" src="{{img_lst[src_lst[10]]}}"bindtap="open" mode="cover"></image>
+        <image class="bag"  id="11" src="{{img_lst[src_lst[11]]}}"  bindtap="open"mode="cover"></image>
+        <image class="bag"  id="12" src="{{img_lst[src_lst[12]]}}"bindtap="open"mode="cover"></image>
+    </view>
+    <view class="blank">
+        <image  style="width:300rpx;height:300rpx" src="../../img/success.png" mode="cover"></image>
+        <text class = "hint">{{text}}</text>
+    </view>
+    <view class="bar-content coin">
+        <image class="bar-icon" src="../../img/coin.png" mode="cover"></image>
+        <text style="color:white;font-size:15pt">{{coin}}</text>
+    </view>
+</view>

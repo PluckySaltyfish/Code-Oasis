@@ -1,0 +1,39 @@
+/* pages/filling/index.wxss */
+.bar-content{
+    width: 42%;
+    
+}
+.life,.coin{
+    background-color: rgba(170,206,243, 0.5);
+}
+.title-bar{
+    font-size: 60rpx;
+    color: rgba(68,165,245, 1);
+}
+.col{
+    width: 75%;
+    background-color: white;
+    font-size: 40rpx;
+    color: rgb(42, 74, 101);
+    border-radius: 20rpx;
+    padding: 40rpx;
+    margin-top: 40rpx;
+}
+.quiz{
+    width: 100%;
+    text-align: left;
+}
+.answer{
+    width: 80%;
+    margin-top: 40rpx;
+    /* background-color: rgba(170,206,243, 0.5); */
+    background-color: white;
+    border-radius: 20rpx;
+    padding: 20rpx;
+
+}
+.submit{
+    margin:0;
+    background-color: rgba(68,165,245, 1);
+    color: white;
+}

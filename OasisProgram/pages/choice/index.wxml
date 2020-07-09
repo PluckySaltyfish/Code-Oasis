@@ -1,0 +1,31 @@
+<view class="container">
+    <view class="row">
+        <view class="row">
+            <text class=" title-bar">{{quiz.name}}</text>
+        </view>
+        <view class="row">
+            <view class="bar-content life">
+                <image class="bar-icon" src="../../img/heart.png" mode="cover"></image>
+                <text style="color:white;font-size:15pt">{{life}}</text>
+            </view>
+            <view class="bar-content coin">
+                <image class="bar-icon" src="../../img/coin.png" mode="cover"></image>
+                <text style="color:white;font-size:15pt">{{coin}}</text>
+            </view>
+        </view>
+    </view>
+    <view class="col">
+        <text class="quiz">{{quiz.content[quiz.step].text}}</text>
+        <image class="quiz-img" src="{{quiz.content[quiz.step].src}}" mode="aspectFit"></image>
+    </view>
+    <view class="answer col">
+        <view class="row btn">
+            <button class="ans" id="1" bindtap="tapAnswer">{{quiz.content[quiz.step].ans[0]}}</button>
+            <button class="ans" id="2" bindtap="tapAnswer">{{quiz.content[quiz.step].ans[1]}}</button>
+        </view>
+        <view class="row btn">
+            <button class="ans" id ="3" bindtap="tapAnswer">{{quiz.content[quiz.step].ans[2]}}</button>
+            <button class="ans" id ="4" bindtap="tapAnswer">{{quiz.content[quiz.step].ans[3]}}</button>
+        </view>
+    </view>
+</view>
